@@ -165,16 +165,26 @@ body {
 .gallery__items{
   position:relative;
 }
+
+svg{
+  width:30px;
+  font-color:gray;
+}
 .zoom{
   position:absolute;
   z-index:100;
   top:120px;
   left:150px;
-  width:10px;
+  height:840px;
+  width:800px;
   height:1px;
   opacity:0;
 }
-.gallery__items img:hover .zoom{
+
+.zoom img{
+  filter
+}
+ .gallery__items div:hover .zoom{
   opacity:1;
 }
 
@@ -182,20 +192,27 @@ body {
   position:absolute;
   z-index:100;
   top:120px;
-  left:498px;
+  left:468px;
   width:10px;
   height:1px;
   opacity:0;
+}
+.gallery__items div:hover .zoom2{
+  opacity:1;
 }
 
 .zoom3{
   position:absolute;
   z-index:100;
   top:120px;
-  left:850px;
+  left:800px;
   width:10px;
   height:1px;
   opacity:0;
+}
+
+.gallery__items div:hover .zoom3{
+  opacity:1;
 }
 .zoom4{
   position:absolute;
@@ -207,23 +224,33 @@ body {
   opacity:0;
 }
 
+.gallery__items div:hover .zoom4{
+  opacity:1;
+}
+
 .zoom5{
   position:absolute;
   z-index:100;
   top:310px;
-  left:498px;
+  left:478px;
   width:10px;
   height:1px;
   opacity:0;
+}
+.gallery__items div:hover .zoom5{
+  opacity:1;
 }
 .zoom6{
   position:absolute;
   z-index:100;
   top:310px;
-  left:830px;
+  left:800px;
   width:10px;
   height:1px;
   opacity:0;
+}
+.gallery__items div:hover .zoom6{
+  opacity:1;
 }
 .zoom7{
   position:absolute;
@@ -234,23 +261,30 @@ body {
   height:1px;
   opacity:0;
 }
-
+.gallery__items div:hover .zoom7{
+  opacity:1;
+}
 .zoom8{
   position:absolute;
   z-index:100;
   top:510px;
-  left:498px;
+  left:478px;
   width:10px;
   height:1px;
   opacity:0;
 }
-
+.gallery__items div:hover .zoom8{
+  opacity:1;
+}
 .zoom9{
   position:absolute;
   z-index:100;
   top:510px;
-  left:850px;
+  left:800px;
   width:10px;
   height:1px;
   opacity:0;
+}
+.gallery__items div:hover .zoom9{
+  opacity:1;
 }
